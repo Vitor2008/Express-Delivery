@@ -1,0 +1,574 @@
+/* Desktop (col-lg) 992+ */
+@media (min-width: 992px){
+    
+}
+
+/* Desktop e Tablets (col-md) 768px a 991px */
+@media (min-width: 768px)  and (max-width: 991px){
+    
+    .col-one{
+        padding-left: 35px!important;
+        padding-right: 35px!important;
+    }
+
+    .header nav{
+        margin: 0!important;
+    }
+
+    .header .navbar-brand img{
+        width: 180px !important;
+    }
+
+    .navbar-toggler-icon{
+        padding-top: 5px;
+    }
+
+    .navbar-collapse{
+        background-color: rgb(248, 252, 126);
+        padding: 20px;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+
+    .banner{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .banner .text-banner h1{
+        font-size: 36px;
+    }
+
+    .banner .text-banner p{
+        font-size: 20px;
+    }
+
+    .banner .img-banner img{
+        width: 700px;
+        position: relative;
+    }
+
+    .card-banner{
+        height: 535px;
+    }
+
+    .function{
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .function .img-banner img{
+        position: relative;
+        width: 300px;
+    }
+
+    .function .title-text{
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .function .function-text-p{
+        font-size: 17px;
+    }
+
+    
+   .contact .texto-contato{
+    margin: 0!important;
+   }
+
+   .form-contato{
+    width: 570px!important;
+   }
+
+   .contact .texto-contato p{
+    font-size: 20px;
+   }
+
+
+   .footer .function-card{
+    padding-top: 45px!important;
+   }
+
+   .container-logo-footer img{
+    width: 150px;
+   }
+
+   .footer-end .container-link-footer{
+    padding-top: 35px;
+    justify-content: center;
+   }
+
+   .footer-end .container-texto-footer p{
+    font-size: 8px!important;
+   }
+
+   .obrigado{
+    text-align: center;
+  }
+
+    
+}
+
+/* Tablets (col-sm) 576px a 767px */
+@media (min-width: 576px)  and (max-width: 767px){
+    
+}
+
+/* Tablets e celulares (col) 325px a 767px */
+@media (min-width: 325px)  and (max-width: 767px) {
+
+    .col-one{
+        padding-left: 35px!important;
+        padding-right: 35px!important;
+    }
+
+    .header nav{
+        margin: 0!important;
+    }
+
+    .header .navbar-brand img{
+        width: 180px !important;
+    }
+
+    .navbar-toggler-icon{
+        padding-top: 5px;
+    }
+
+    .navbar-collapse{
+        background-color: rgb(248, 252, 126);
+        padding: 20px;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+
+    .banner{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .banner .text-banner h1{
+        font-size: 36px;
+    }
+
+    .banner .text-banner p{
+        font-size: 20px;
+    }
+
+    .banner .img-banner img{
+        width: 400px;
+        position: relative;
+    }
+
+    .card-banner{
+        height: 365px;
+    }
+
+    .title{
+        font-size: 27px;
+    }
+
+    .function{
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .function .img-banner img{
+        position: relative;
+        width: 350px;
+    }
+
+    .function .title-text{
+        padding-top: 70px;
+        font-size: 28px;
+    }
+
+    .function .function-text-p{
+        font-size: 20px;
+    }
+
+    .fluxo-dev{
+        padding-top: 30px;
+    }
+
+    .fluxo-dev .title{
+        font-size: 23px;
+    }
+
+    .faq-perguntas{
+        text-align: left;
+    }
+
+    .question h3{
+        font-size: 13px;
+    }
+
+    .no-mobile{
+        display: none;
+    }
+
+    .no-lg{
+        display: block;
+    }
+
+    .plus{
+        display: none;
+    }
+
+    /* Para as bordas da tabela */
+.table-price {
+    width: 100%; /* Ajusta a largura para ocupar 100% da tela */
+    border-color: rgba(0, 0, 0, 0.2)!important; /* Define a cor da borda para preto com 20% de transparência */
+}
+
+/* Para as células da tabela */
+.planos th,
+.planos td {
+    display: block; /* Exibe cada célula em uma linha separada */
+    padding: 10px 0; /* Ajusta o espaçamento interno */
+    text-align: center; /* Alinha o texto à esquerda */
+    border-color: rgba(0, 0, 0, 0.2)!important; /* Define a cor da borda para preto com 20% de transparência */
+}
+
+.plus-mobile-div{
+    border-radius: 20px;
+}
+
+.plus-mobile{
+   text-align: center;
+   font-size: 20px;
+   background-color: var(--color-secondary);
+   color: #fff;
+   font-weight: bold;
+   padding: 5px;
+}
+
+   
+   .contact .texto-contato{
+    margin: 0!important;
+   }
+
+   .form-contato{
+    width: 370px!important;
+   }
+
+   .contact .texto-contato p{
+    font-size: 20px;
+   }
+
+
+   .contact .icons{
+    margin-top: 0;
+    width: 90%;
+   }
+
+   .contact .icons a{
+    font-size: 20px;
+   }
+ 
+
+   .end .title{
+    margin-bottom: 0;
+   }
+
+   .end .img-banner{
+    padding-top: 20px;
+   }
+
+   .end .img-banner img{
+     width: 350px;
+     margin-left: 0;
+   }
+
+   .footer .footer_logo img{
+    width: 300px;
+   }
+
+   .footer{
+    padding-top: 70px;
+   }
+
+   .footer .footer_title{
+      font-size: 20px;
+      padding-top: 50px;
+   }
+
+
+   .reservation_icon{
+    width: 25px;
+   }
+
+   .reservation_icon-wrapper{
+    width: 45px;
+    height: 45px;
+   }
+   
+   .container-logo-footer{
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+
+    .container-texto-footer p{
+    text-align: center;
+   }
+
+   .container-link-footer{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+
+  .obrigado{
+    text-align: center;
+  }
+
+  .obrigado .title{
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+
+  .obrigado .btn-yellow{
+    margin-top: 15px;
+  }
+}
+
+
+/* Celulares menores (col) 0px a 325px */
+@media (max-width: 325px) {
+
+    .col-one{
+        padding-left: 35px!important;
+        padding-right: 35px!important;
+    }
+
+    .header nav{
+        margin: 0!important;
+    }
+
+    .navbar-brand img{
+        width: 150px!important;
+    }
+
+    .navbar-toggler-icon{
+        padding-top: 5px;
+    }
+
+    .navbar-collapse{
+        background-color: rgb(248, 252, 126);
+        padding: 20px;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+
+    .banner{
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .banner .text-banner h1{
+        font-size: 28px;
+    }
+
+    .banner .text-banner p{
+        font-size: 15px;
+    }
+
+    .banner .img-banner img{
+        width: 300px;
+        position: relative;
+    }
+
+    .card-banner{
+        height: 310px;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+
+    .function{
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .function .img-banner img{
+        position: relative;
+        width: 280px;
+    }
+
+    .function .title-text{
+        padding-top: 70px;
+        font-size: 28px;
+    }
+
+    .function .function-text-p{
+        font-size: 15px;
+    }
+
+    .fluxo-dev{
+        padding-top: 30px;
+    }
+
+    .fluxo-dev .title{
+        font-size: 20px;
+    }
+
+    .faq-perguntas{
+        text-align: left;
+    }
+
+    .question h3{
+        font-size: 13px;
+    }
+
+    .no-mobile{
+        display: none;
+    }
+
+    .no-lg{
+        display: block;
+    }
+
+    .plus{
+        display: none;
+    }
+
+    /* Para as bordas da tabela */
+.table-price {
+    width: 100%; /* Ajusta a largura para ocupar 100% da tela */
+    border-color: rgba(0, 0, 0, 0.2)!important; /* Define a cor da borda para preto com 20% de transparência */
+}
+
+/* Para as células da tabela */
+.planos th,
+.planos td {
+    display: block; /* Exibe cada célula em uma linha separada */
+    padding: 10px 0; /* Ajusta o espaçamento interno */
+    text-align: center; /* Alinha o texto à esquerda */
+    border-color: rgba(0, 0, 0, 0.2)!important; /* Define a cor da borda para preto com 20% de transparência */
+}
+
+.plus-mobile-div{
+    border-radius: 20px;
+}
+
+.plus-mobile{
+   text-align: center;
+   font-size: 20px;
+   background-color: var(--color-secondary);
+   color: #fff;
+   font-weight: bold;
+   padding: 5px;
+}
+
+   
+   .contact .texto-contato{
+    margin: 0!important;
+   }
+
+   .form-contato{
+    width: 300px!important;
+   }
+
+   .contact .texto-contato p{
+    font-size: 20px;
+   }
+
+
+   .contact .icons{
+    margin-top: 0;
+    width: 80%;
+   }
+
+   .contact .icons a{
+    font-size: 12px;
+   }
+ 
+
+   .end .title{
+    margin-bottom: 0;
+   }
+
+   .end p{
+    font-size: 18px;
+   }
+
+   .end .img-banner{
+    padding-top: 20px;
+   }
+
+   .end .img-banner img{
+     width: 300px;
+     margin-left: 0;
+   }
+
+   .footer .footer_logo img{
+    width: 250px;
+   }
+
+   .footer{
+    padding-top: 70px;
+   }
+
+   .footer .footer_title{
+      font-size: 20px;
+      padding-top: 50px;
+   }
+
+
+   .reservation_icon{
+    width: 20px;
+   }
+
+   .reservation_icon-wrapper{
+    width: 45px;
+    height: 45px;
+   }
+
+   .footer span{
+    font-size: 13px;
+   }
+   
+   .container-logo-footer{
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+
+    .container-texto-footer p{
+    text-align: center;
+   }
+
+   .container-link-footer{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+
+  .obrigado{
+    text-align: center;
+  }
+
+  .obrigado .title{
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+
+  .obrigado .btn-yellow{
+    margin-top: 15px;
+  }
+}
